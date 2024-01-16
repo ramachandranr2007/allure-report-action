@@ -13,6 +13,10 @@ inputs:
     description: 'Allure report target dir'
     required: true
     default: 'allure-report'
+  allure_static_report:
+    description: 'Allure static report target dir'
+    required: false
+    default: 'allure-static-report'
   gh_pages:
     description: 'Folder with gh-pages branch'
     required: true
